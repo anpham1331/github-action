@@ -19,7 +19,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Test
-        run: go test github.com/anpham1331/github-action
+        run: go test github.com/anpham1331/github-action/lab11/github-action/microservice
 
 
 

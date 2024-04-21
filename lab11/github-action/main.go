@@ -2,7 +2,7 @@
 package main
 
 import (
-	"github-action/microservice"
+	"github.com/anpham1331/github-action/lab11/github-action/microservice"
 	"log"
 )
 

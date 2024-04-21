@@ -2,8 +2,9 @@
 package main
 
 import (
-	"github.com/anpham1331/github-action/lab11/github-action/microservice"
 	"log"
+
+	"github.com/anpham1331/github-action/lab11/github-action/microservice"
 )
 
 func main() {

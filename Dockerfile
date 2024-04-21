@@ -1,5 +1,5 @@
 FROM golang:1.15-alpine AS build
-WORKDIR /go/src/github.com/anpham1331/github-action/lab11
+WORKDIR /labs
 COPY go.mod .
 RUN go mod download
 COPY ./lab11/github-action/main.go .

@@ -8,8 +8,8 @@ WORKDIR /labs
 COPY go.mod .
 RUN go mod download
 
-COPY ./lab11/main.go .
-ADD ./lab11/microservice ./microservice
+COPY main.go .
+ADD /microservice ./microservice
 
 RUN CGO_ENABLED=0 go build -o /bin/helloserver
 

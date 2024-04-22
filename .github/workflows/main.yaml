@@ -29,7 +29,7 @@ jobs:
         uses: docker/login-action@v1
         with:
           username: ${{ secrets.anpham1331 }}
-          password: ${{ secrets.AHP321@docker }}
+          password: ${{ secrets.AHP321docker }}
       - name: Build and push
         id: docker_build
         uses: docker/build-push-action@v2
